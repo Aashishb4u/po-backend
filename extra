@@ -1,0 +1,9 @@
+  BAR Graph
+  public function barGraph()
+    {    $error = null;
+        $userControllerObj = new UserModel();
+        $response = $userControllerObj->barGraph();
+        return $this->returnableResponseData($response, $error);
+    }
+    ----------------------------------------------------------------------------------------------------------------------
+
